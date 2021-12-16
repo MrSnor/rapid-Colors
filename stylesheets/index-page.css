@@ -1,5 +1,5 @@
 :root {
-  --shadow-color: 28deg 99% 29%;
+  --shadow-color: 38deg 94% 25%;
   --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
     0.8px 1.6px 2px hsl(var(--shadow-color) / 0.36),
     2.1px 4.1px 5.2px hsl(var(--shadow-color) / 0.36),
@@ -37,7 +37,7 @@
 }
 
 body {
-  background: #ff7605;
+  background: #fca311;
   margin: 0;
 }
 
@@ -48,5 +48,4 @@ li > a {
 
 li > a:hover {
   text-decoration: underline;
-  text-decoration-style: dotted;
 }
