@@ -9,22 +9,31 @@
   <link rel="stylesheet" href="./stylesheets/index-page.css" />
 </head>
 <style>
-  @media screen and (min-width:800px) {
-    .textShadow>li {
-      font-size: 40px;
+  @media screen and (min-width:600px) {
+    .content-list>li {
+      font-size: 4vh;
+    }
+
+    .header {
+      font-size: 8vh;
     }
   }
+
   @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
 </style>
 
 <body>
   <div class="box">
-    <ol class="textShadow">
+    <div class="header">
+      List of my color related experiments
+    </div>
+    <ul class="content-list">
       <li>
-        <a href="./blink-page.html">Rapid Blink pages (WARNING!! FLASHING LIGHTS)</a>
+        <a href="./blink-screen.html">Rapid Blink (WARNING!! FLASHING LIGHTS)</a>
       </li>
+      <li><a href="./blink-box.html">Blink box</a> </li>
       <li>Coming Soon...</li>
-    </ol>
+    </ul>
   </div>
 </body>
 

@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.instruction {
+    font-size: large;
+    font-weight: 900;
+}
+.box {
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+    background-color: darksalmon;
+}
